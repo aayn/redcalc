@@ -2,8 +2,100 @@
 <html>
 <head>
     <title>Little Red Calculator</title>
+    <script type="text/javascript" src='https://code.jquery.com/jquery-2.2.0.min.js'></script>
+    <script type="text/javascript" src='https://code.jquery.com/ui/1.11.4/jquery-ui.min.js'></script>
+    <script type="text/javascript" src='https://cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile'></script>
+    <script type="text/javascript" src='js/calc.js'></script>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
 </head>
-<body>
+<div id="begin" class="row">
+        <div class="col-md-5">
+            <h2 class="lobster white-text">The Little Red Calculator</h2>
+        </div>
+        <div id="calc" class="col-md-5 container">
+            
+            <div class="row">
+
+
+                <div id="calc-head" class="oswald white-text col-xs-12">
+                    <p>CALCULATOR</p>
+                </div>
+
+                <div id="screen" class="col-xs-10 col-xs-offset-1 well">
+                    <p id="screen-text" class="oswald"></p>
+                </div>
+                
+                <div id="seven" class="col-xs-2 col-xs-offset-1 oswald white-text my-btn num">
+                    <p>7</p>
+                </div>
+                <div id="eight" class="col-xs-2 oswald white-text my-btn num">
+                    <p>8</p>
+                </div>
+                <div id="nine" class="col-xs-2 oswald white-text my-btn num">
+                    <p>9</p>
+                </div>
+                <div id="ce" class="col-xs-2 oswald white-text my-btn two-letter">
+                    <p>CE</p>
+                </div>
+                <div id="ac" class="col-xs-2 oswald white-text my-btn two-letter">
+                    <p>AC</p>
+                </div>
+           
+
+            
+                <div id="four" class="col-xs-2 col-xs-offset-1 oswald white-text my-btn num">
+                    <p>4</p>
+                </div>
+                <div id="five" class="col-xs-2 oswald white-text my-btn num">
+                    <p>5</p>
+                </div>
+                <div id="six" class="col-xs-2 oswald white-text my-btn num">
+                    <p>6</p>
+                </div>
+                <div id="divi" class="col-xs-2 oswald white-text my-btn bi-operator">
+                    <p>&divide</p>
+                </div>
+                <div id="mult" class="col-xs-2 oswald white-text my-btn bi-operator">
+                    <p>x</p>
+                </div>
+                
+
+                <div id="one" class="col-xs-2 col-xs-offset-1 oswald white-text my-btn num">
+                    <p>1</p>
+                </div>
+                <div id="two" class="col-xs-2 oswald white-text my-btn num">
+                    <p>2</p>
+                </div>
+                <div id="three" class="col-xs-2 oswald white-text my-btn num">
+                    <p>3</p>
+                </div>
+                <div id="plus" class="col-xs-2 oswald white-text my-btn bi-operator">
+                    <p>+</p>
+                </div>
+                <div id="minus" class="col-xs-2 oswald white-text my-btn bi-operator">
+                    <p>-</p>
+                </div>
+            
+
+                <div id="zero" class="col-xs-2 col-xs-offset-3 oswald white-text my-btn num">
+                    <p>0</p>
+                </div>
+                <div id="dec" class="col-xs-2 col-xs-offset-2 oswald white-text my-btn">
+                    <p>.</p>
+                </div>
+                <div id="equals" class="col-xs-2 oswald white-text my-btn">
+                    <p>=</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 oswald white-text"></div>
+    </div>
 
 </body>
 </html>
